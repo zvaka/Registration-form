@@ -8,7 +8,7 @@
     <h1>Registration Form</h1>
     <p>Please fill out this form with the required information</p>
     <form action="https://register-demo.freecodecamp.org">
-    </form>
+
       <fieldset>
         <label>Enter Your First Name: <input type="text" name="first-name" required ></label>
         <label>Enter Your Last Name: <input type="text" name="last-name" required></label>
@@ -17,8 +17,8 @@
         <!-- The pattern attribute to the password input element is to require the input match: [a-z0-5]{8,}-->
       </fieldset>
       <fieldset>
-        <label><input type="radio" name="account-type"> Personal Account</label>
-        <label><input type="radio" name="account-type"> Business Account</label>
+        <label><input type="radio" name="account-type" class="inline"> Personal Account</label>
+        <label><input type="radio" name="account-type" class="inline"> Business Account</label>
         <label><input type="checkbox" name="i-accept" required> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
       </fieldset>
       <fieldset>
@@ -36,18 +36,8 @@
         <label>Provide a bio
           <textarea rows="3" cols="30" name="bio" placeholder="I like coding on the beach..."></textarea>
         </label>
-
         </fieldset>
       <input type="submit" value="Sumbit">
-
-
-
-
-
-
-
-
-
-
+    </form>
 </body>
 </html>
